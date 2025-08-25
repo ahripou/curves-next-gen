@@ -82,10 +82,12 @@ export const HeroSection = () => {
           </div>
 
           {/* Promo Banner */}
-          <div className="mt-12 p-6 bg-yellow-400 text-primary-dark rounded-2xl shadow-glow inline-block">
-            <p className="text-lg font-semibold">
-              🎉 Promotion de rentrée - Les 15 premières s'inscrivent pour seulement 15€ !
-            </p>
+          <div className="mt-12 relative">
+            <img 
+              src="/lovable-uploads/322d811f-1262-4670-9ded-3a276a940368.png"
+              alt="Promotion Curves - 15€ pour les 15 premières inscrites"
+              className="w-full max-w-md mx-auto rounded-2xl shadow-glow"
+            />
           </div>
         </div>
       </div>
