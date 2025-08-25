@@ -84,7 +84,7 @@ export const HeroSection = () => {
           {/* Promo Banner */}
           <div className="mt-12 p-6 bg-yellow-400 text-primary-dark rounded-2xl shadow-glow inline-block">
             <p className="text-lg font-semibold">
-              🎉 Promotion de rentrée - Les 15 premières s'inscrivent pour seulement 15€ de frais d'inscription !
+              🎉 Promotion de rentrée - Les 15 premières s'inscrivent pour seulement 15€ !
             </p>
           </div>
         </div>

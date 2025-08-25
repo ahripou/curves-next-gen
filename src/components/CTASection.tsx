@@ -46,7 +46,7 @@ export const CTASection = () => {
               Offre de rentrée
             </h3>
             <p className="text-muted-foreground mb-6">
-              Les 15 premières inscriptions pour seulement 15€ de frais d'inscription
+              Les 15 premières s'inscrivent pour seulement 15€ !
             </p>
             <Button 
               variant="default" 
