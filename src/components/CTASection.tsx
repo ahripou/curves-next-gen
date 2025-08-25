@@ -67,7 +67,7 @@ export const CTASection = () => {
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-5 h-5" />
-            <span>Galerie CORA - 1200 Bruxelles</span>
+            <span>Dans la Galerie CORA</span>
           </div>
           <div className="flex items-center gap-2">
             <Clock className="w-5 h-5" />
