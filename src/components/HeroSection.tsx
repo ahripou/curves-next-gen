@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-fitness.jpg";
+import heroImage from "/lovable-uploads/0b696401-c2b2-4cc3-a898-ffd7e64145ca.png";
 import { Calendar, Clock, Users } from "lucide-react";
 
 export const HeroSection = () => {

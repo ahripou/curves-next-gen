@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import gymEquipment from "@/assets/gym-equipment.jpg";
+import gymEquipment from "/lovable-uploads/0b696401-c2b2-4cc3-a898-ffd7e64145ca.png";
 
 const steps = [
   {
