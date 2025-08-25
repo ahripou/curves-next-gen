@@ -31,7 +31,12 @@ export const CTASection = () => {
             <p className="text-muted-foreground mb-6">
               Testez notre méthode sans engagement et découvrez pourquoi Curves change tout !
             </p>
-            <Button variant="hero" size="lg" className="w-full">
+            <Button 
+              variant="hero" 
+              size="lg" 
+              className="w-full"
+              onClick={() => window.open('https://api.fitness-academie.fr/widget/booking/T9vZhkFs9OQlPEKG1uSA', '_blank')}
+            >
               Réserver ma séance gratuite
             </Button>
           </Card>
@@ -43,7 +48,12 @@ export const CTASection = () => {
             <p className="text-muted-foreground mb-6">
               Les 15 premières inscriptions à seulement 29€/mois au lieu de 49€/mois
             </p>
-            <Button variant="default" size="lg" className="w-full">
+            <Button 
+              variant="default" 
+              size="lg" 
+              className="w-full"
+              onClick={() => window.open('https://api.fitness-academie.fr/widget/booking/T9vZhkFs9OQlPEKG1uSA', '_blank')}
+            >
               Profiter de l'offre
             </Button>
           </Card>

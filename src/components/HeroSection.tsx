@@ -63,10 +63,20 @@ export const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-6">
+            <Button 
+              variant="hero" 
+              size="lg" 
+              className="text-lg px-8 py-6"
+              onClick={() => window.open('https://api.fitness-academie.fr/widget/booking/T9vZhkFs9OQlPEKG1uSA', '_blank')}
+            >
               Réserver ma place gratuite
             </Button>
-            <Button variant="outline-light" size="lg" className="text-lg px-8 py-6">
+            <Button 
+              variant="outline-light" 
+              size="lg" 
+              className="text-lg px-8 py-6"
+              onClick={() => window.open('https://api.fitness-academie.fr/widget/booking/T9vZhkFs9OQlPEKG1uSA', '_blank')}
+            >
               Découvrir Curves
             </Button>
           </div>
