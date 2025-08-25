@@ -15,11 +15,17 @@ type TestimonialVideo = {
 const getYouTubeId = (url: string) => {
   try {
     const u = new URL(url);
-    if (u.hostname.includes("youtu.be")) return u.pathname.slice(1);
+    // youtu.be/<id>
+    if (u.hostname.includes("youtu.be")) return u.pathname.slice(1).split("/")[0];
+    // youtube.com/watch?v=<id>
     if (u.searchParams.get("v")) return u.searchParams.get("v") || undefined;
-    const parts = u.pathname.split("/");
+    const parts = u.pathname.split("/").filter(Boolean);
+    // youtube.com/embed/<id>
     const embedIndex = parts.indexOf("embed");
     if (embedIndex !== -1 && parts[embedIndex + 1]) return parts[embedIndex + 1];
+    // youtube.com/shorts/<id>
+    const shortsIndex = parts.indexOf("shorts");
+    if (shortsIndex !== -1 && parts[shortsIndex + 1]) return parts[shortsIndex + 1];
   } catch (_) {}
   return undefined;
 };
