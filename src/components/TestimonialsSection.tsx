@@ -90,9 +90,21 @@ const VideoCard = ({ video }: { video: TestimonialVideo }) => {
 export const TestimonialsSection = () => {
   // Add your video links here (MP4 urls or YouTube links)
   const videos: TestimonialVideo[] = [
-    // Example entries (replace with your links)
-    // { id: "v1", title: "Témoignage de Marie", youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ" },
-    // { id: "v2", title: "Témoignage de Sophie", src: "/videos/temoignage-sophie.mp4", poster: "/placeholder.svg" },
+    { 
+      id: "v1", 
+      title: "Témoignage Curves - Transformation incroyable", 
+      youtubeUrl: "https://youtube.com/shorts/JH1VySn2WOo?feature=share" 
+    },
+    { 
+      id: "v2", 
+      title: "Résultats Curves - Mon parcours fitness", 
+      youtubeUrl: "https://youtube.com/shorts/YLzi0dPyr5c?feature=share" 
+    },
+    { 
+      id: "v3", 
+      title: "Curves m'a changé la vie - Témoignage", 
+      youtubeUrl: "https://youtube.com/shorts/3Vy73ZQZCXs?feature=share" 
+    },
   ];
 
   return (
