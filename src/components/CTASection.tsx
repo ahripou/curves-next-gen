@@ -63,15 +63,15 @@ export const CTASection = () => {
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 text-white/90">
           <div className="flex items-center gap-2">
             <Phone className="w-5 h-5" />
-            <span>+32 2 123 45 67</span>
+            <span>02 771 24 00</span>
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-5 h-5" />
-            <span>Bruxelles Centre</span>
+            <span>Galerie CORA - 1200 Bruxelles</span>
           </div>
           <div className="flex items-center gap-2">
             <Clock className="w-5 h-5" />
-            <span>Lun-Ven 6h-22h, Sam 8h-18h</span>
+            <span>Lun-Mer 8h30-14h/16h-20h</span>
           </div>
         </div>
       </div>
