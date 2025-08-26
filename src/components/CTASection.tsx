@@ -60,18 +60,24 @@ export const CTASection = () => {
         </div>
 
         {/* Contact Info */}
-        <div className="flex flex-col md:flex-row justify-center items-center gap-8 text-white/90">
-          <div className="flex items-center gap-2">
-            <Phone className="w-5 h-5" />
-            <span>02 771 24 00</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <MapPin className="w-5 h-5" />
-            <span>Galerie Cora - Woluwé-Saint-Lambert</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <Clock className="w-5 h-5" />
-            <span>Lun-Mer 8h30-14h/16h-20h</span>
+        <div className="text-center text-white/90 space-y-4">
+          <p className="text-xl font-semibold text-yellow-300 mb-6">
+            Contactez-nous pour commencer maintenant votre transformation !
+          </p>
+          <div className="space-y-2">
+            <p className="text-lg font-bold text-white">CURVES Bruxelles</p>
+            <p>Avenue des Communautés - Gemeenschappenlaan 101</p>
+            <p>1200 Bruxelles</p>
+            <p className="italic">Dans la Galerie CORA</p>
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-4">
+              <div className="flex items-center gap-2">
+                <Phone className="w-5 h-5" />
+                <span>02 771 24 00</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span>curves.bruxelles@gmail.com</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
