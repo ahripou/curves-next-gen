@@ -1,5 +1,5 @@
+
 import { Button } from "@/components/ui/button";
-import heroImage from "/lovable-uploads/0b696401-c2b2-4cc3-a898-ffd7e64145ca.png";
 import { Calendar, Clock, Users } from "lucide-react";
 
 export const HeroSection = () => {
@@ -9,12 +9,15 @@ export const HeroSection = () => {
       <div className="absolute inset-0 gradient-hero" />
       <div className="absolute inset-0 bg-black/20" />
       
-      {/* Hero Image */}
+      {/* Hero Image - Optimized for fast loading */}
       <div className="absolute right-0 top-0 w-1/2 h-full hidden lg:block">
         <img 
-          src={heroImage} 
-          alt="Femme forte faisant du fitness chez Curves" 
+          src="/lovable-uploads/e9d57b17-ee5d-4b34-9f53-bdeba115a795.png"
+          alt="Équipe de femmes souriantes chez Curves - Ensemble vers vos objectifs fitness" 
           className="w-full h-full object-cover opacity-80"
+          loading="eager"
+          decoding="async"
+          fetchPriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-l from-transparent via-primary/10 to-primary/30" />
       </div>
