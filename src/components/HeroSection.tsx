@@ -4,7 +4,7 @@ import { Calendar, Clock, Users } from "lucide-react";
 
 export const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background */}
       <div className="absolute inset-0 gradient-hero" />
       <div className="absolute inset-0 bg-black/20" />
@@ -27,9 +27,12 @@ export const HeroSection = () => {
         <div className="max-w-3xl">
           {/* Logo */}
           <div className="mb-8">
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-2 tracking-tight">
-              Curves
-            </h1>
+            <img 
+              src="/lovable-uploads/4fecbf48-fd1c-490d-8df1-7ac110b7f07d.png" 
+              alt="Curves - Fitness pour femmes" 
+              className="h-16 w-auto mb-4 mx-auto lg:mx-0"
+              loading="eager"
+            />
             <div className="w-24 h-1 bg-white/80 rounded-full mx-auto lg:mx-0" />
           </div>
 
