@@ -43,10 +43,10 @@ export const CTASection = () => {
 
           <Card className="p-8 gradient-card shadow-glow text-center">
             <h3 className="text-2xl font-bold text-primary mb-4">
-              Offre de rentrée
+              Offre du moment
             </h3>
             <p className="text-muted-foreground mb-6">
-              Les 15 premières s'inscrivent pour seulement 15€ !
+              En Avril, les frais d'inscriptions sont à 1€!
             </p>
             <Button 
               variant="default" 
