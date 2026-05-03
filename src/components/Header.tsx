@@ -20,7 +20,7 @@ export const Header = () => {
           onClick={() => window.open('https://api.fitness-academie.fr/widget/booking/T9vZhkFs9OQlPEKG1uSA', '_blank')}
           className="hidden sm:inline-flex"
         >
-          Séance gratuite
+          Bilan de forme gratuit
         </Button>
       </nav>
     </header>
