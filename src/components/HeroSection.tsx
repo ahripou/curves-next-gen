@@ -69,7 +69,7 @@ export const HeroSection = () => {
               className="text-lg px-8 py-6"
               onClick={() => window.open('https://api.fitness-academie.fr/widget/booking/T9vZhkFs9OQlPEKG1uSA', '_blank')}
             >
-              Réserver ma place gratuite
+              Réserver mon bilan de forme gratuit
             </Button>
             <Button 
               variant="outline-light" 

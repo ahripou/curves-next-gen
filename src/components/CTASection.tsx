@@ -18,7 +18,7 @@ export const CTASection = () => {
           </h2>
           <p className="text-xl text-white/90 max-w-2xl mx-auto mb-8">
             Rejoignez des milliers de femmes qui ont déjà découvert 
-            la méthode Curves. Votre première séance est offerte !
+            la méthode Curves. Votre premier bilan de forme est offert !
           </p>
         </div>
 
@@ -26,7 +26,7 @@ export const CTASection = () => {
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
           <Card className="p-8 gradient-card shadow-glow text-center">
             <h3 className="text-2xl font-bold text-primary mb-4">
-              Séance découverte gratuite
+              Bilan de forme gratuit
             </h3>
             <p className="text-muted-foreground mb-6">
               Testez notre méthode sans engagement et découvrez pourquoi Curves change tout !
