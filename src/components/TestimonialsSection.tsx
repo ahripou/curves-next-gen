@@ -135,7 +135,7 @@ export const TestimonialsSection = () => {
                 variant="default"
                 onClick={() => window.open("https://api.fitness-academie.fr/widget/booking/T9vZhkFs9OQlPEKG1uSA", "_blank")}
               >
-                Essayer une séance gratuite
+                Réserver mon bilan de forme gratuit
               </Button>
             </div>
           </Card>
