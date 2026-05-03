@@ -66,7 +66,7 @@ export const HeroSection = () => {
             <Button 
               variant="hero" 
               size="lg" 
-              className="text-lg px-8 py-6"
+              className="text-lg sm:text-lg text-base px-6 sm:px-8 py-7 sm:py-6 w-full sm:w-auto font-bold shadow-lg hover:shadow-xl active:scale-95 transition-all duration-200"
               onClick={() => window.open('https://api.fitness-academie.fr/widget/booking/T9vZhkFs9OQlPEKG1uSA', '_blank')}
             >
               Réserver mon bilan de forme gratuit
@@ -74,7 +74,7 @@ export const HeroSection = () => {
             <Button 
               variant="outline-light" 
               size="lg" 
-              className="text-lg px-8 py-6"
+              className="text-base sm:text-lg px-6 sm:px-8 py-6 w-full sm:w-auto"
               onClick={() => window.open('https://api.fitness-academie.fr/widget/booking/T9vZhkFs9OQlPEKG1uSA', '_blank')}
             >
               Découvrir Curves

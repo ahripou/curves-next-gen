@@ -17,8 +17,9 @@ export const Header = () => {
         {/* CTA Button */}
         <Button 
           variant="hero" 
+          size="sm"
           onClick={() => window.open('https://api.fitness-academie.fr/widget/booking/T9vZhkFs9OQlPEKG1uSA', '_blank')}
-          className="hidden sm:inline-flex"
+          className="text-xs sm:text-sm px-3 sm:px-4"
         >
           Bilan de forme gratuit
         </Button>
