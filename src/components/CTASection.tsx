@@ -46,7 +46,7 @@ export const CTASection = () => {
               Offre du moment
             </h3>
             <p className="text-muted-foreground mb-6">
-              En Avril, les frais d'inscriptions sont à 1€!
+              En Mai, les frais d'inscriptions sont à 9,99€!
             </p>
             <Button 
               variant="default" 
