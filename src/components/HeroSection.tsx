@@ -84,7 +84,7 @@ export const HeroSection = () => {
           {/* Promo Banner */}
           <div className="mt-12 p-6 bg-yellow-400 text-primary-dark rounded-2xl shadow-glow inline-block">
             <p className="text-lg font-semibold">
-              🎉 Promotion  - Les frais d'inscriptions sont à 1€ jusqu'au 30 Avril 2026!
+              🎉 Promotion - Les frais d'inscriptions sont à 9,99€ jusqu'au 30 Mai 2026!
             </p>
           </div>
         </div>
