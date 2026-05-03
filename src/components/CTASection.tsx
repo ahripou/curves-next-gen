@@ -37,7 +37,7 @@ export const CTASection = () => {
               className="w-full"
               onClick={() => window.open('https://api.fitness-academie.fr/widget/booking/T9vZhkFs9OQlPEKG1uSA', '_blank')}
             >
-              Réserver ma séance gratuite
+              Réserver mon bilan de forme gratuit !
             </Button>
           </Card>
 
