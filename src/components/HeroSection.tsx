@@ -25,14 +25,8 @@ export const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center lg:text-left">
         <div className="max-w-3xl">
-          {/* Logo */}
+          {/* Decorative line */}
           <div className="mb-8">
-            <img 
-              src="/lovable-uploads/4fecbf48-fd1c-490d-8df1-7ac110b7f07d.png" 
-              alt="Curves - Fitness pour femmes" 
-              className="h-16 w-auto mb-4 mx-auto lg:mx-0"
-              loading="eager"
-            />
             <div className="w-24 h-1 bg-white/80 rounded-full mx-auto lg:mx-0" />
           </div>
 
